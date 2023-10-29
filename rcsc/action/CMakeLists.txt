@@ -7,7 +7,6 @@ add_library(rcsc_action OBJECT
   bhv_scan_field.cpp
   body_advance_ball2009.cpp
   body_clear_ball2009.cpp
-  body_dribble2008.cpp
   body_go_to_point.cpp
   body_go_to_point_dodge.cpp
   body_hold_ball2008.cpp
@@ -18,7 +17,6 @@ add_library(rcsc_action OBJECT
   body_smart_kick.cpp
   body_stop_ball.cpp
   body_stop_dash.cpp
-  intention_dribble2008.cpp
   intention_time_limit_action.cpp
   neck_scan_field.cpp
   neck_scan_players.cpp
@@ -55,8 +53,6 @@ install(FILES
   body_advance_ball2009.h
   body_clear_ball.h
   body_clear_ball2009.h
-  body_dribble.h
-  body_dribble2008.h
   body_go_to_point.h
   body_go_to_point_dodge.h
   body_hold_ball.h
@@ -73,7 +69,6 @@ install(FILES
   body_turn_to_angle.h
   body_turn_to_ball.h
   body_turn_to_point.h
-  intention_dribble2008.h
   intention_time_limit_action.h
   neck_scan_field.h
   neck_scan_players.h
