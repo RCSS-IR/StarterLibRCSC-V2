@@ -10,7 +10,6 @@ add_subdirectory(net)
 add_subdirectory(time)
 add_subdirectory(ann)
 add_subdirectory(clang)
-add_subdirectory(formation)
 add_subdirectory(color)
 add_subdirectory(common)
 add_subdirectory(monitor)
@@ -29,7 +28,6 @@ add_library(rcsc SHARED
   $<TARGET_OBJECTS:rcsc_time>
   $<TARGET_OBJECTS:rcsc_ann>
   $<TARGET_OBJECTS:rcsc_clang>
-  $<TARGET_OBJECTS:rcsc_formation>
   $<TARGET_OBJECTS:rcsc_color>
   $<TARGET_OBJECTS:rcsc_common>
   $<TARGET_OBJECTS:rcsc_monitor>
